@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <%- include('styles'); %>
+    <!--here i was in need of linking a stylesheet. so the conventional way 
+    didn't worked so i made an ejs and using style tag put every decoration over there
+    and imported here-->
+</head>
+<body>
+    <div class="fram">
+    <%-include('header');%>
+    <%-include('inp');%>
+    <%-include('lab',{tasks:tas});%>
+    </div>
+</body>
+</html>
