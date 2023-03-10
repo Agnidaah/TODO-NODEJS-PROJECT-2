@@ -1,6 +1,6 @@
 <div class="taskk">
     <% for(var i=0;i<=tasks.length-1;i++){ %>
-        <form method="GET" action="http://localhost:4500/Todo" onsubmit="return remov('<%=i+1%>')">
+        <form method="GET" action="https://gurpreetstodolistingapp.onrender.com/Todo" onsubmit="return remov('<%=i+1%>')">
         <div id="<%=i+1%>" class="tsk">
         <input type="text" name="tass" value="<%=tasks[i]%>" readonly>
         <button type="submit">x</button>
