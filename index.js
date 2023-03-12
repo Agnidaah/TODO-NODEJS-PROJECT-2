@@ -18,7 +18,7 @@ http.createServer((req,res)=>{
             res.end(con);
         break;
         default:
-            res.end('URL-https://gurpreetstodolistingapp.onrender.com/Todo');
+            res.end('URL-https://gurpreets-todo-app.netlify.app/Todo');
         break;
     }
 }).listen(4500);
